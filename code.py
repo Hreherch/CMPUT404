@@ -1,8 +1,4 @@
 import requests
 
-print(requests.__version__)
-
-r = requests.get("http://www.google.com")
-print(r.status_code)
+r = requests.get("https://raw.githubusercontent.com/Hreherch/CMPUT404/master/code.py")
 print(r.text)
-print(dir(r))
